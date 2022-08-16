@@ -64,3 +64,29 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.icon{
+  flex-shrink: 0;
+}
+
+.modal{
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+  
+}
+
+.confirmation-message{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.header{
+  font-size: 18px;
+  font-weight: bold;
+}
